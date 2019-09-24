@@ -1,0 +1,25 @@
+{
+    "name": "boost",
+    "keywords": "c++, generic, boost, collections",
+    "description": "The famous Boost C++ Libraries. All original files included but only some libraries will work on your system.",
+    "authors":
+    [
+    {
+        "name": "Cristi Posoiu",
+        "email": "cristi@posoiu.net",
+        "url": "https://www.posoiu.net",
+	"maintainer": true
+    },
+    {
+	"name": "Boost Users",
+        "email": "boost-users@lists.boost.org",
+	"url": "https://www.boost.org"
+    }],
+    "version": "1.71.0",
+    "license" : "BSL-1.0",
+    "downloadUrl": "https://dl.bintray.com/boostorg/release/1.71.0/source/boost_1_71_0.tar.gz",
+
+    "frameworks": ["arduino", "esp8266-nonos-sdk", "esp8266-rtos-sdk"],
+    "platforms": ["espressif8266", "atmelavr"]
+}
+
